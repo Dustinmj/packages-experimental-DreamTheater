@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.dreamtheater"
     >
-
+    <uses-sdk android:minSdkVersion="14" />
     <application android:label="DreamTheater"
         android:icon="@mipmap/icon">
         <activity android:name=".DreamTheaterActivity"
